@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Poppins:wght@400;600&display=swap');
+
+body{
+    width:100%;
+    background-color: #684BB1;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-position-x:center;
+    background-size: 100%;
+}
+
+header{
+    width:32%;
+}
+.logo{
+    margin-top: 38.5px;
+    margin-left: 40px;
+    margin-right: 215px;
+    width:100%;
+}
+section{
+    padding:69.8px 39px 0px 40px;
+}
+.mainimg{
+    width:100%;
+}
+article{
+    margin-top: 40px;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding: 0px 47px 0px 48px; 
+}
+.huddle{
+    padding: 16px 35px 0px 36px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.register{
+    display: grid;
+    padding: 11.29px 0px 10.71px 0px;
+    margin-left: 88px;
+    margin-right: 87px;
+    margin-top: 24px;
+    background-color: white;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.269022);
+    border-radius: 20px;
+}
+.regtxt{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #684BB1;
+}
+.register:hover{
+    background: #E880E8;
+    cursor:pointer;
+}
+.register:hover .regtxt{
+    color:white;
+}
+footer{
+    margin-top:64px;
+    display: flex;
+    justify-content: center;
+    padding-bottom:40px;
+}
+svg{
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+}
+svg{
+    padding:7.7px 10px 7px 10px;
+}
+svg:hover path{
+    fill: #FF52C1  
+}
+.fb{
+    margin-left: 0px;
+}
+svg{
+    margin-left:10.68px;
+}
+svg:hover{
+    cursor: pointer;
+    border-color: #FF52C1;
+}
+.inst,.tw,.fb{
+    height: 20px;
+    width: 17px;
+}
+
+
+@media(min-width:1440px){
+body{
+    background-image: url(images/bg-desktop.svg);
+}
+.logo{
+    margin-top: 64px;
+    margin-left: 80px;
+}
+section {
+    display:grid;
+    padding: 117px 0px 0px 85px;
+    grid-template-columns: 50% 50%;
+}
+h1{
+    font-size: 40px;
+    line-height: 60px;
+    text-align: start;
+    padding:0px;
+    margin-top: 10px;
+    margin-right:118px;
+}
+article{
+    margin-left:59px;
+}
+.huddle{
+    font-size: 18px;
+    line-height: 27px;
+    text-align: start;
+    padding:0px;
+    margin-top:24px;
+    margin-right:85px;
+}
+.register{
+    margin-left: 0px;
+    padding: 13px 0px 13px 0px;
+    border-radius: 28px;
+    margin-top:24px;
+    margin-right: 405px;
+} 
+.regtxt{
+    font-size: 18px;
+    line-height: 27px;
+}
+footer{
+    margin-top:27px;
+    justify-content: end;
+    padding-right: 80px;
+
+}
+.inst,.tw,.fb{
+    height: 28px;
+    width: 26px;
+}
+svg{
+    padding:7.7px 10px 7px 10px;
+    margin-left: 16px;
+}
+}
